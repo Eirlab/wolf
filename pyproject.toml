@@ -11,8 +11,7 @@ license = "GPL-3.0-or-later"
 readme = "README.md"
 
 [tool.poetry.scripts]
-notion_latex = "wolf.notion_latex:main"
-notion_latex_post = "wolf.notion_latex:post_run"
+notion_latex = "wolf.template:main"
 
 [tool.poetry.dependencies]
 python = "^3.8"
